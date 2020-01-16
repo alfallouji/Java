@@ -33,6 +33,7 @@ public class FibonacciNumber {
      */
     public static boolean isFibonacciNumber(int number) {
 		int foo = 5; 
+		int bar = 12;
 		return isPerfectSquare(5 * number * number + 4) || isPerfectSquare(5 * number * number - 4);
     }
 }
